@@ -6,11 +6,27 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+        <link href="../static/style/c.css" rel="stylesheet" />
+
 </head>
 <body>
-    <form id="formMain" runat="server">
-    <div>
-    
+    <form id="mainForm" runat="server">
+    <div id="main">
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr>
+                <td valign="top" width="200">
+                   <!--#include file="../menu.html"-->
+                </td>
+
+                <td valign="top">
+                    <div class="box">
+                        welcome 
+                    </div>
+                </td>
+
+            </tr>
+
+        </table>
     </div>
     </form>
 </body>
