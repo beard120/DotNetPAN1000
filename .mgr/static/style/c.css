@@ -1,0 +1,278 @@
+﻿body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    margin: 0;
+    font-family: Arial;
+}
+
+.a {
+}
+
+.b {
+}
+
+.table {
+border-collapse: collapse;
+text-align: left;
+border: 1px solid #ccc;
+background: #FEFEFE;
+}
+
+.table td {
+padding: 10px;
+}
+
+.table .table td {
+padding: 2px;
+        
+}
+
+.table th {
+background: #999;
+line-height: 24px;
+color: #FFF;
+text-align: left;
+text-indent: 3px;
+}
+
+.table th a {
+color: #fff;
+}
+
+
+.table td {       
+border-bottom: 1px solid #eee;
+text-indent: 3px;
+}
+.table tr:hover {
+    background:#fff;
+}
+.table > tr {
+border-bottom: 1px solid #eee;
+background: #f8f8f8;
+line-height: 36px;
+text-align: left;
+color: #1C7FDB;
+text-indent: 3px;
+}
+
+.table .notable th, .table .notable, .table .notable td, .table .notable tr {
+border: none;
+color: inherit;
+background: none;
+}
+
+/*input*/
+.textInput {
+  
+    color: #666666;
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    padding: 2px 4px;
+
+}
+
+
+/*textarea*/
+.textArea {
+   
+    font-size: 14px;
+    padding: 3px;
+
+}
+
+
+
+
+
+.box {
+    background: #FFF;
+}
+
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    color: #636A86;
+    text-decoration: none;
+}
+
+    a:active {
+        outline: none;
+        star: expression(this.onFocus=this.blur());
+    }
+
+    a:active, a:focus, input:focus {
+        -moz-outline-style: none;
+        outline: none;
+    }
+
+    a:link, a:visited, a:active {
+        color: #778087;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #4d5256;
+        text-decoration: underline;
+    }
+
+.cl {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+}
+
+.button {
+    border-left: 1px solid #BABABA;
+    border-right: 1px solid #BABABA;
+    border-top: 1px solid #BFBFBF;
+    border-bottom: 1px solid #8D8D8D;
+    background: #FFF url('img/topbtn.png') repeat-x left -41px;
+    outline: medium none;
+    cursor: pointer;
+    min-width: 2em;
+    text-align: center;
+    display: inline-block;
+    line-height: 1.2em;
+    padding: 2px 15px;
+    border-radius: 2px;
+    height: 23px;
+}
+
+    .button:hover {
+        color: #333;
+        box-shadow: 0 1px 2px rgba(66,66,77,0.2);
+        text-shadow: 0 1px 1px #FFF;
+    }
+
+
+
+
+.menu {
+   
+    padding:0;
+    margin: 5px;
+    border:1px solid #ccc;
+}
+
+.menu dt {
+    display: block;
+    background: #ccc;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+    padding:0;
+    padding-left:1em;
+    color:#0066CC;
+    font-weight:bold
+}
+
+.menu dd {
+    display: block;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    padding-left:1em;
+
+}
+
+
+.Page td a, .Page td span {
+    line-height: 24px;
+    padding: 0.3em 0.6em;
+    margin-left: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #FFFFFF;
+    border: 1px solid #1B84AF;
+    color: #1B84AF;
+    text-decoration: none;
+}
+
+.Page td span {
+    background: #1B84AF;
+    border: 1px solid #333;
+    color: #FFFFFF;
+}
+
+.line {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.red {
+    color: #f00;
+}
+
+.select {
+    cursor: pointer;
+    padding: 1px 1px 1px 2px;
+    background: white;
+    background: url(img/webqqshow_on.gif) no-repeat right center;
+    border-style: solid;
+    border-color: #DCE0E1;
+    border-width: 1px;
+    position: relative;
+    height: 18px;
+    width: 200px;
+}
+
+.select span {
+    line-height: 18px;
+    height: 18px;
+    overflow: hidden;
+}
+
+.select > ul {
+    z-index: 999;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 16px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+
+.select > ul li {
+line-height: 20px;
+}
+
+.select > ul li a {
+text-decoration: none;
+text-align: center;
+padding-left: 1em;
+padding-right: 1em;
+text-align: left;
+}
+
+.select > ul li a:hover,
+.select > ul li.selected a {
+background: #000;
+color: #fff;
+}
+
+
+.space {
+    height:20px;
+}
