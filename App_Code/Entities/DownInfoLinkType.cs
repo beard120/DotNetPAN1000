@@ -11,7 +11,7 @@ namespace Entities
         public string Name { get; set; }
         public string Prefixes { get; set; }
         public string Names { get; set; }
-        public bool Enable { get; set; }
+        public bool Enabled { get; set; }
     }
 
 }

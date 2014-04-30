@@ -1,35 +1,25 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 using Common.DB;
 
 
 namespace Entities
 {
-
-    [Table(TableName = "[DownInfos]")]
-    public struct DownInfo
+    [Table(TableName = "[Articles]")]
+    public struct Article
     {
         [Field(IsId = true)]
         public int ID { get; set; }
-        public string Name { get; set; }
-        public string Version { get; set; }
+        public string Title { get; set; }
+        public string Subtitle { get; set; }
         public int SeriesID { get; set; }
-        public string Tags { get; set; }
-        public string TagsIds { get; set; }
-        public string Keywords { get; set; }
-        public string KeywordsIds { get; set; }
         public int CatalogID { get; set; }
         public string CatalogPath { get; set; }
-        public int Size { get; set; }
-        public string Description { get; set; }
-
-        public string Details { get; set; }
-
-        public string Languages { get; set; }
-        public string LanguagesIds { get; set; }
-        public bool Recommend { get; set; }
-        public bool Published { get; set; }
+        public string Keywords { get; set; }
+        public string KeywordsIds { get; set; }
         public string Cover { get; set; }
-
 
         [Field(AllowModifyUndefined = true)]
         public int VoteA { get; set; }
@@ -55,30 +45,21 @@ namespace Entities
         public int MonthViewTimes { get; set; }
 
 
-
-        [Field(AllowModifyUndefined = true)]
-        public int DownTimes { get; set; }
-
-        [Field(AllowModifyUndefined = true)]
-        public int DayDownTimes { get; set; }
-
-
-        [Field(AllowModifyUndefined = true)]
-        public int WeekDownTimes { get; set; }
-
-        [Field(AllowModifyUndefined = true)]
-        public int MonthDownTimes { get; set; }
-
-
         [Field(AllowModifyUndefined = true)]
         public DateTime CreatedDate { get; set; }
 
         public DateTime? ModifiedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }
 
+
+        public string Description { get; set; }
+        public string Content { get; set; }
+
+        public bool Recommend { get; set; }
+        public bool Published { get; set; }
+
         public int CEditorID { get; set; }
         public int MEditorID { get; set; }
-
     }
 
 }

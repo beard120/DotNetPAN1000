@@ -10,6 +10,7 @@ namespace Mgr.Entities
         [Field(IsId = true)]
         public int ID { get; set; }
         public string Name { get; set; }
+        public string NickName { get; set; }
         public string USN { get; set; }
         public string PWD { get; set; }
     }

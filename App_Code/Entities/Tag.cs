@@ -4,7 +4,7 @@
 namespace Entities
 {
     [Table(TableName = "[Tags]")]
-    public class Tag
+    public struct Tag
     {
         [Field(IsId = true)]
         public int ID { get; set; }
