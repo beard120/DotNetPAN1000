@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="App_Code/Entities/Article.cs">
+    <Files>
+      <File FileName=".mgr/article/add.aspx" Line="64" Column="37" />
+      <File FileName=".mgr/article/add.aspx.cs" Line="14" Column="2" />
+      <File FileName="App_Code/Entities/Article.cs" Line="18" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

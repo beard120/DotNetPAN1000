@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
+    <title>article-add</title>
     <link href="../static/style/c.css" rel="stylesheet" />
 
     <script src="../static/script/global.js"></script>
@@ -30,7 +30,8 @@
 
         $(document).ready(function () {
             $("#browser").treeview();
-        });
+        });
+
     </script>
     <!--/treeview-->
 
